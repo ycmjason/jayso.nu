@@ -1,0 +1,22 @@
+{
+  "hosting": {
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/**",
+        "dynamicLinks": true
+      }
+    ],
+    "redirects": [
+      {
+        "source": "/",
+        "destination": "https://jaysonu.com/",
+        "type": 301
+      }
+    ]
+  }
+}
